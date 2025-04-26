@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="alert-container">
+      <div id="demo3" class="">
+      </div>
+      <div>
+        <model-viewer
+          id="model"
+          src="VHSspin.glb"
+          autoplay
+          loop
+          loading="eager"
+          style="width: 450px; height: 450px"
+        >
+        </model-viewer>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/gh/peterhry/CircleType@2.3.1/dist/circletype.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
